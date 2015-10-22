@@ -11,7 +11,7 @@ write a constructor and the code to "finish" the `abstract` methods in the Float
 3. "Override" the `move()` method of the Floater class by writing a new `move()` method in the Asteroid class that also rotates each Asteroid at its own speed
 4. Now add just a single asteroid to your applet. Start by just calling the Asteroid's `show()` function. Make sure you can see it and are happy with its shape before going to the next step.
 5. Now add the code that moves and rotates the Asteroid
-6. Modify your applet code so that you have an array of Asteroids.
+6. Modify your code so that you have an array of Asteroids.
 7. Submit the URL of your working program to the school loop locker
 
 Extensions
