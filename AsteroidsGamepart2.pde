@@ -1,14 +1,8 @@
-class Asteroids extends Floater
-{
-  private int speedOfRotation;
-  public Asteroids()
-  {
-    speedOfRotation = (int)(Math.random()*11)-5;
-    myColor = color(150, 150, 150, 60);
+00, 100);
     myCenterX = Math.random()*800;
     myCenterY = Math.random()*500;
-    myDirectionX = Math.random()*9-3;
-    myDirectionY = Math.random()*9-3;
+    myDirectionX = Math.random()*5-2;
+    myDirectionY = Math.random()*5-2;
     myPointDirection = (int)(Math.random()*360);
     corners = 12;
     int [] xs = {8, 8, 6, 2, 0, -6, -10, -8, -4, 0, 4, 6};
@@ -31,5 +25,6 @@ class Asteroids extends Floater
   public void move()
   {
     super.move();
+    super.rotate(speedOfRotation);
   }
 }
